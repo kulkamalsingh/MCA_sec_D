@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tablefontsize{
+    font-size: 0.9em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+a:hover{
+    background-color: #f8a38e;
+    color: black;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:320){
+.tablefontsize{
+    font-size: 10px;
+}
+    
+}
